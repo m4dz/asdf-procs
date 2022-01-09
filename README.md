@@ -8,7 +8,6 @@
 
 # Contents
 
-- [asdf-procs !Build ![Lint](https://github.com/barolab/asdf-procs/workflows/Lint/badge.svg)](#asdf-procs--)
 - [Contents](#contents)
 - [Dependencies](#dependencies)
 - [Install](#install)
