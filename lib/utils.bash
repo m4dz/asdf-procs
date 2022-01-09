@@ -65,7 +65,7 @@ install_version() {
     fail "asdf-$TOOL_NAME supports release installs only"
   fi
 
-  local release_file="$install_path/$TOOL_NAME-$version.tar.gz"
+  local release_file="$install_path/$TOOL_NAME-$version.zip"
   (
     mkdir -p "$install_path"
     download_release "$version" "$release_file"
