@@ -40,7 +40,7 @@ download_release() {
   local platform
   case "$OSTYPE" in
     darwin*) platform="mac" ;;
-    linux*) platform="lnx" ;;
+    linux*) platform="linux" ;;
     *) fail "Unsupported platform" ;;
   esac
 
